@@ -1,0 +1,43 @@
+
+.ttt ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:  none;
+    width: 300px;
+    margin: auto;
+    border: 5px solid black;
+    padding: 0;
+}
+
+
+li {
+    width: 90px;
+    height: 90px;
+    background: grey;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.empty:hover {
+    background: yellow;
+}
+
+.x, .o {
+    background: white;
+}
+
+.winner {
+    background: green;
+    color: white;
+}
+.loser {
+    color:red;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+}
